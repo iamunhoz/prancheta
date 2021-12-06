@@ -103,9 +103,11 @@ COMO DESENVOLVEDOR:
 
 Conhecimento: TypeScript, React, Material-UI, Node, Express, MongoDB, Python, Archlinux, bash scripting, escrita técnica.
 
-Meu maior trabalho é um aplicativo completo de rede social - com curtidas, comentários, seguir usuários e páginas de perfil -  construída na stack MERN, e pode ser acessada através do link: http://bit.ly/agora-social-network e seu código fonte pode ser visto em: https://github.com/iamunhoz/social-feed-clone.
+Em meu ultimo trabalho, atuei como desenvolvedor full-stack junior em conjunto com outros dois desenvolvedores para a criação de uma aplicação web SPA para uma empresa fornecedora de serviços contábeis, que usou Node.js e MySQL no back-end e React.Js, Styled-Components, Formik e Yup no front-end. Nossa equipe se organizou utilizando a metodologia ágil Scrum, e utilizamos o Jest para as baterias de testes, tanto no front quanto no backend.
 
-Sou um profissional com um longo histórico de parcerias que depositaram uma grande confiança em mim e nunca foram desapontados desde quando comecei comocolaborador clt até me tornar um profissional freelancer dono de sua própria MEI.
+Como portfolio de projetos pessoais, apresento os dois a seguir: o primeiro é um aplicativo completo de rede social - com curtidas, comentários, seguir usuários e páginas de perfil -  construída na stack MERN, e uma demonstração (não otimizada) pode ser vista em: https://agora-social.herokuapp.com e seu código fonte pode ser visto em: https://github.com/iamunhoz/social-feed-clone. O segundo é um aplicativo completamente original que criei com o intuito de ser uma ferramenta pedagógica que auxilie o ensino de Árvores Sintáticas (semelhantes às árvores sintaticas usadas na ciência da computação) de línguas naturais, que é a metodologia contemporânea de análise gramatical utilizada na área da linguística gerativa. Este aplicativo pode ser acessado em https://noam.netlify.app e seu código fonte, que será sempre livre, pode ser visto em: https://github.com/iamunhoz/noam.
+
+Sou um profissional com um longo histórico de parcerias que depositaram uma grande confiança em mim e nunca foram desapontados desde quando comecei como colaborador clt até me tornar um profissional freelancer dono de sua própria MEI.
 
 Sou também um pesquisador acadêmico que se concentra nas interfaces existentes entre línguas naturais e linguagem de programação.
 
