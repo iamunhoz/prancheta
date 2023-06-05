@@ -1,0 +1,1 @@
+# fazer listagem de unicode characters
