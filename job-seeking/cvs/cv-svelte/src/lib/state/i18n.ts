@@ -5,7 +5,7 @@ enum Language {
 	PT = 'pt'
 }
 
-export const language = writable<Language>(Language.EN);
+export const language = writable<Language>(Language.PT);
 
 export const setLanguage = (lang: Language) => {
 	language.set(lang);

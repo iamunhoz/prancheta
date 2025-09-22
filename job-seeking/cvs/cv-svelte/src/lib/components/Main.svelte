@@ -12,7 +12,7 @@
 	<SectionTitle>
 		{uiLabels.experience[$language]}
 	</SectionTitle>
-	{#each [...xpList, ...xpList, ...xpList, ...xpList] as experience}
+	{#each xpList as experience}
 		<CardExperience data={experience} />
 	{/each}
 

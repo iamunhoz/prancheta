@@ -5,6 +5,14 @@ export const uiLabels: Record<string, BilingualContent> = {
 		en: 'Experience',
 		pt: 'Experiência'
 	},
+	title: {
+		en: 'FULL STACK DEVELOPER',
+		pt: 'DESENVOLVEDOR FULL STACK'
+	},
+	country: {
+		en: 'BRAZIL',
+		pt: 'BRASIL'
+	},
 	projects: {
 		en: 'Projects',
 		pt: 'Projetos'

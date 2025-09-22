@@ -9,9 +9,10 @@ export type BilingualContent = {
 export type ExperienceData = {
 	beginDate: string;
 	endDate: BilingualContent | null;
-	company: string;
+	company: BilingualContent;
 	position: BilingualContent;
 	description: BilingualContent[];
+	location: BilingualContent;
 };
 
 export type SkillData = {

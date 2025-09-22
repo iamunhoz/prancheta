@@ -7,7 +7,7 @@
 	export let data: ExperienceData;
 	export let className: string | undefined = undefined;
 
-	const { beginDate, endDate, company, position, description } = data;
+	const { beginDate, endDate, company, position, description, location } = data;
 </script>
 
 <div
@@ -15,7 +15,7 @@
 >
 	<h2 class="font-medium">{position[$language]}</h2>
 
-	<p class="font-custom-sans mt-[-4px] text-xs text-gray-900">{company}</p>
+	<p class="font-custom-sans mt-[-4px] text-xs text-gray-900">{company[$language]}</p>
 
 	<ul class="list-inside list-disc">
 		{#each description as item}
@@ -30,9 +30,10 @@
 			<p>{endDate[$language]}</p>
 		{/if}
 	</div>
-
-	<div class="absolute top-[6px] right-0 flex items-center">
-		<MapPin size={12} />
-		<p class="font-source-code text-[10px] text-gray-500">{uiLabels.remote[$language]}</p>
-	</div>
+	{#if location[$language].length}
+		<div class="absolute top-[6px] right-0 flex items-center">
+			<MapPin size={12} />
+			<p class="font-source-code text-[10px] text-gray-500">{location[$language]}</p>
+		</div>
+	{/if}
 </div>
