@@ -4,12 +4,11 @@
 	export let className: string | undefined = undefined;
 </script>
 
-<div class={`${className ?? ''} flex flex-col items-center justify-center gap-2 text-center`}>
-	{#each contactList as { Icon, label, content }}
-		<div class="flex flex-col items-center justify-center gap-2 text-center">
-			<Icon />
-			<p>{label}</p>
-			<p>{content}</p>
+<div class={`${className ?? ''} flex flex-col gap-2`}>
+	{#each contactList as { Icon, content }}
+		<div class="flex items-center gap-1 text-xs text-gray-800">
+			<Icon size={12} />
+			<p class="font-source-code">{content}</p>
 		</div>
 	{/each}
 </div>

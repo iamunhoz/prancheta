@@ -4,10 +4,10 @@
 	import Main from '$lib/components/Main.svelte';
 </script>
 
-<div class="h-screen w-screen">
+<div class="h-screen p-4 pl-24">
 	<Header className=" w-full" />
-	<div class="flex gap-2">
-		<Main className="h-[80vh] w-full hidden" />
-		<Aside className="hidden" />
+	<div class="mt-3 flex gap-2">
+		<Main className="h-[80vh] w-full" />
+		<Aside className="" />
 	</div>
 </div>

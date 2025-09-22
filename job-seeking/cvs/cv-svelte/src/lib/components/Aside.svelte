@@ -1,15 +1,23 @@
 <script lang="ts">
+	import { uiLabels } from '$lib/assets/ui-labels';
 	import { skillsList } from '$lib/assets/xp-list';
 	import CardContactData from './CardContactData.svelte';
 	import CardSkill from './CardSkill.svelte';
+	import { language } from '$lib/state/i18n';
+	import SectionTitle from './SectionTitle.svelte';
 
 	export let className: string | undefined = undefined;
 </script>
 
-<aside class="{className ?? ''} flex flex-col items-center justify-center gap-2 text-center">
-	<h2>Contact</h2>
+<aside class="{className ?? ''} flex flex-col gap-2">
+	<SectionTitle>
+		{uiLabels.contact[$language]}
+	</SectionTitle>
 	<CardContactData />
-	<h2>Skills</h2>
+
+	<SectionTitle>
+		{uiLabels.skills[$language]}
+	</SectionTitle>
 	{#each skillsList as skill}
 		<CardSkill data={skill} />
 	{/each}
