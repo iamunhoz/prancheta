@@ -3,6 +3,9 @@
 
 This was a single time React job, in which I was responsible to design and develop 90% of the pages of a accountancy web application. To do so, I developed the React Components of almost everything: the Sidebar, Menus, buttons, forms etc, and also create the connections with the API that was developed by another team. I also solved some bugs in that Node server that was hosting the API when they were discovered by me during the front-end development stage.
 
+# shorter cover letter
+I thrive on a daily life filled with organized thought. I like to think first, prepare a strategy and then apply focused action until the work is done, to finally see see what I’ve created and feel proud. I also enjoy working with people who share a similar mindset.
+
 # cover letter (translated from workana cover letter)
 Hello, my name is Ivã Munhoz, I have been freelancing in web development for 2 years and currently I develop in Node and React. I have a methodology that helps me develop front-end solutions very fast and I have very good communication skills. I prefer to document almost everything.
 

@@ -1,0 +1,7 @@
+Sou um desenvolvedor full-stack com quase cinco anos de experiência na criação de aplicativos web e mobile. Minha expertise principal inclui React, Next.js, Node.js, TypeScript, SQL, Linux e DevOps.
+
+Já iderei uma equipe que desenvolveu uma plataforma de gestão municipal, coordenando o time tecnicamente durante sprints e conduzi revisões de código para entregar recursos de alta qualidade. Antes disso, fui mantenedor do frontend e backend de um aplicativo web de helpdesk — adicionando novos recursos, corrigindo bugs, refatorando código legado e integrando APIs de mensagens como WhatsApp, Twilio e Meta — fortalecendo minha capacidade de gerenciar projetos complexos e comunicar soluções entre equipes multidisciplinares.
+
+Minha experiência também abrange desenvolvimento em React Native, integrações em tempo real usando WebSockets e trabalho com bancos de dados MySQL e PostgreSQL. Antes de ingressar na área de tecnologia, cursei Linguística na UFPR e trabalhei como professor de inglês como segunda língua (ESL), o que aprimorou minha comunicação, organização e adaptabilidade — qualidades que aprimoram a integração de equipes e a colaboração entre funções. Já fui também técnico de redes, impressoras e computadores para o banco Caixa Econômica Federal.
+
+Sou apaixonado por criar produtos escaláveis ​​e de alto desempenho e estou sempre ansioso para aprender, compartilhar conhecimento e ajudar equipes a ter sucesso.

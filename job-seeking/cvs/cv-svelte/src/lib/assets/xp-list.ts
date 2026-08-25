@@ -2,10 +2,47 @@ import type { ExperienceData, SkillData } from '$lib/types';
 
 export const xpList: ExperienceData[] = [
 	{
+		beginDate: '2025',
+		endDate: { en: 'Present', pt: 'Atual' },
+		company: { en: 'Lailla', pt: 'Lailla' },
+		position: { en: 'Full Stack Developer', pt: 'Desenvolvedor Full Stack' },
+		location: { en: 'Brazil (remote)', pt: 'Brasil (remoto)' },
+		description: [
+			{
+				en: 'Full-stack development of a multi-tenant SaaS focused on WhatsApp customer communication, inbox, contacts, and automation flows (fluxograms)',
+				pt: 'Desenvolvimento full stack de um SaaS multi-tenant focado em comunicação via WhatsApp, caixa de entrada, contatos e automações por fluxos (fluxogramas)'
+			},
+			{
+				en: 'Backend (NestJS): built and maintained versioned APIs, webhooks, and integrations (Postgres/TypeORM, Mongo/Mongoose, Redis, Socket.IO)',
+				pt: 'Backend (NestJS): construção e manutenção de APIs versionadas, webhooks e integrações (Postgres/TypeORM, Mongo/Mongoose, Redis, Socket.IO)'
+			},
+			{
+				en: 'Frontend (Angular 17): implemented product features and refactors in UI, creating listings, a chat room with sockets, a drag-and-drop cards UI and other implementations',
+				pt: 'Frontend (Angular 17): implementação de features e refatoramentos na UI, criando listagens, uma sala de chat uma interface de cards contendo drag-and-drop e outras implementações'
+			},
+			{
+				en: 'Implemented e-commerce integration end-to-end: credentials UX, webhook triggers mapping, payload normalization for flow variables, and token auto-refresh/re-authorization',
+				pt: 'Implementação end-to-end de integração com e-commerce: UX de credenciais, mapeamento de gatilhos de webhook, normalização de payload para variáveis de fluxo e auto-refresh/reautorização de tokens'
+			},
+			{
+				en: 'Integration with Meta WhatsApp CTWA (Click-to-WhatsApp Ads) support and corresponding frontend dashboards',
+				pt: 'Integração com a CTWA (Click-to-WhatsApp Ads) no WhatsApp Meta e dashboards no frontend'
+			},
+			{
+				en: 'Improved reliability and maintainability via refactors into smaller helpers/services, stricter typing, and diagnostics/seed scripts for faster feature development',
+				pt: 'Melhoria de confiabilidade e manutenção via refatoramentos em helpers/services menores, tipagem mais estrita e scripts de diagnóstico/seeds para acelerar o desenvolvimento'
+			},
+			{
+				en: 'Stack: TypeScript, NestJS, Angular 17, PrimeNG, Tailwind CSS, Socket.IO, TypeORM, PostgreSQL, MongoDB, Redis, Docker',
+				pt: 'Stack: TypeScript, NestJS, Angular 17, PrimeNG, Tailwind CSS, Socket.IO, TypeORM, PostgreSQL, MongoDB, Redis, Docker'
+			}
+		]
+	},
+	{
 		beginDate: '2024',
 		endDate: {
-			en: 'Present',
-			pt: 'Atual'
+			en: '2025',
+			pt: '2025'
 		},
 		company: { en: 'InfinityBase', pt: 'InfinityBase' },
 		position: {
@@ -290,7 +327,7 @@ export const educationList: ExperienceData[] = [
 			pt: 'UFPR - Universidade Federal do Paraná'
 		},
 		position: {
-			en: 'Lingustics Undergraduate',
+			en: 'Linguistics Undergraduate',
 			pt: 'Graduação em Linguística'
 		},
 
